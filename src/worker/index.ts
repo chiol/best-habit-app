@@ -77,7 +77,7 @@ self.addEventListener("sync", () => {
                     }
                 });
             }
-        }, 10 * 1000);
+        }, 60 * 1000);
         AlertManager.isCalled = true;
     }
 });
