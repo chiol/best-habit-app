@@ -1,4 +1,3 @@
-import { css } from "@emotion/react";
 import { Stack } from "@mui/material";
 import { AlertItem } from "..";
 import { IAlertList } from "./AlertList.interface";

@@ -1,4 +1,4 @@
-import { useRecoilState, useSetRecoilState } from "recoil";
+import { useRecoilState } from "recoil";
 import { alertListAtom } from "../../recoil/alert-list.atom";
 import { IAlertItem } from "./AlertItem.interface";
 import VAlertItem from "./AlertItem.view";

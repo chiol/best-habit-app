@@ -27,11 +27,11 @@ class AlertManager {
         return this._isCalled;
     }
 
-    public add(v: IAlertItem) {
+    public add(v: IAlertItem | any) {
         this._data = [...this._data, v];
     }
 
-    public update(v: IAlertItem) {
+    public update(v: IAlertItem | any) {
         const idx = this._data.findIndex(({ id }) => v.id === id);
         this._data[idx] = v;
     }
